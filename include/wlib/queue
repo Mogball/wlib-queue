@@ -1,0 +1,6 @@
+#ifndef __WLIB_QUEUE__
+#define __WLIB_QUEUE__
+
+#include <wlib/stl/Queue.h>
+
+#endif

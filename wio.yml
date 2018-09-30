@@ -1,0 +1,25 @@
+type: pkg
+
+project:
+  name: wlib-queue
+  version: 1.0.0
+  keywords:
+  - wio
+  - pkg
+  compile_options:
+    header_only: true
+    wio_version: 0.4.2
+    default_target: tests
+
+targets:
+  tests:
+    src: tests
+    platform: native
+  native-tests:
+    src: native-tests
+    platform: native
+
+dependencies:
+  wlib-tmp:
+    version: 1.0.2
+
